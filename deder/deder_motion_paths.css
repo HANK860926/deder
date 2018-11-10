@@ -1,0 +1,65 @@
+#page1.gwd-play-animation .gwd-motion-path-fd63-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing": false, "sections": [ {
+      "controlPoints": ["52px", "-16px", "30.9px", "-16px", "-63.93px", "49.41px", "-88px", "43px", "-88px", "43px", "-133.53px", "30.86px", "-162.1px", "-41px", "-202px", "-41px", "-202px", "-41px", "-242.67px", "-41px", "-264.33px", "0px", "-305px", "0px"], "startTimeMs": 0, "endTimeMs": 3000, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation:gwd-motion-path-fd63-keys-x 3s linear 0s 1 normal forwards;
+  transform:translate3d(52px, 0px, 0px);
+}
+@keyframes gwd-motion-path-fd63-keys-x {
+  0% {
+    transform: translate3d(52px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3242, 0.343, 0.683, 0.6509);
+  }
+  37.33% {
+    transform: translate3d(-88px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2914, 0.3789, 0.7178, 0.6133);
+  }
+  72.56% {
+    transform: translate3d(-202px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3103, 0.3591, 0.6897, 0.6409);
+  }
+  100% {
+    transform: translate3d(-305px, 0px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-fd63-anim-y {
+  animation: gwd-motion-path-fd63-keys-y 3s linear 0s 1 normal forwards;
+  transform: translate3d(0px, -16px, 0px);
+}
+@keyframes gwd-motion-path-fd63-keys-y {
+  0% {
+    transform: translate3d(0px, -16px, 0px);
+    animation-timing-function: cubic-bezier(0.3761, 0.2082, 0.6827, 0.69);
+  }
+  21.47% {
+    transform: translate3d(0px, 21.42px, 0px);
+    animation-timing-function: cubic-bezier(0.198, 0.2162, 0.6829, 1.0881);
+  }
+  37.33% {
+    transform: translate3d(0px, 43px, 0px);
+    animation-timing-function: cubic-bezier(0.4007, 0.2286, 0.6199, 0.7442);
+  }
+  69.91% {
+    transform: translate3d(0px, -39.3px, 0px);
+  }
+  72.56% {
+    transform: translate3d(0px, -41px, 0px);
+    animation-timing-function: cubic-bezier(0.4233, 0.0763, 0.5767, 0.9237);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
